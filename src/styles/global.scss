@@ -1,0 +1,30 @@
+:root{
+  --blue: #273FAD;
+  --green: #3FAD27;
+  --red: 	#ad273f;
+  --background: #EBEBEB;
+  --shapes: #FFFFFF;
+  --text-title: #3D3D4D;
+  --text: #1C1C29;
+  --text-light: #A09CB1;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+a, button {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
